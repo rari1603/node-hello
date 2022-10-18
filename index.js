@@ -1,12 +1,9 @@
-const http = require('http');
-const port = process.env.PORT || 3000;
+<!DOCTYPE html>
+<html>
+<body>
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  const msg = 'Hello Node!\n'
-  res.end(msg);
-});
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
 
-server.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}/`);
-});
+</body>
+</html>
